@@ -167,16 +167,21 @@ footer {
 /* --- Mobile layout fix for hero + menu --- */
 @media (max-width: 768px) {
 
-  .overlay .name {
+.overlay {
+  position: fixed;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -30%);
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.overlay .name {
     font-size: clamp(2.2rem, 10vw, 3.2rem);
     line-height: 1.1;
     text-align: center;
     padding: 0 1rem;
-  }
-
-  .overlay {
-    top: 35%;
-    transform: translate(-50%, -30%);
   }
 
   .bottom-nav {
