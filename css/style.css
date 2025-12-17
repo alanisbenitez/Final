@@ -199,17 +199,14 @@ footer {
    TABLET VIEWPORT (768–1024)
    ========================== */
 @media (min-width: 768px) and (max-width: 1024px) {
+ /* ===== ABOUT PAGE ===== */
+  body.about {
+    padding-bottom: 120px; /* space for fixed footer */
+  }
 
-  /* ===== ABOUT PAGE ===== */
   body.about .about-section {
     max-width: 720px;
     margin: 0 auto;
-    /* make the section fill the viewport so there’s no big empty bottom */
-    min-height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding-bottom: 3rem;
   }
 
   body.about .about-photo {
