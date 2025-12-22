@@ -121,7 +121,7 @@ body.about .portrait img:hover {
   }
 }
 
-/* ---------- BOTTOM NAV (HOME ONLY) ---------- */
+/* ---------- BOTTOM NAV (about ONLY) ---------- */
 body.about .bottom-nav{
   position:fixed;
   bottom:0;
@@ -141,5 +141,3 @@ body.about .bottom-nav a{
   font-weight:600;
   letter-spacing:0.05em;
 }
-body.about .bottom-nav a:hover{color:var(--brand);}
-body.about .bottom-nav a[aria-current="page"]{opacity:100;}
