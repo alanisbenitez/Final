@@ -141,3 +141,9 @@ body.about .bottom-nav a{
   font-weight:600;
   letter-spacing:0.05em;
 }
+
+@media (min-width: 769px) and (max-width: 1024px){
+  body.about main.wrap{
+    padding-top: 140px; /* pushes everything down on tablet */
+  }
+}
