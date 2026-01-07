@@ -17,7 +17,7 @@ body.contact main {
 .work-together {
   text-align: center;
   color: #fcfcfc;
-  opacity: 100%
+  opacity: 1; 
 }
 
 .work-together h1 {
@@ -25,12 +25,10 @@ body.contact main {
   letter-spacing: 0.06em;
   margin-bottom: 60px;
   color: #fcfcfc;
-  opacity: 100%;
 }
 
 .work-together h1 span {
   color:#f7f7f7;
-  opacity: 100%;
 }
 
 /* icon row */
@@ -90,8 +88,14 @@ body.contact .bottom-nav a{
   font-weight:600;
   letter-spacing:0.05em;
 }
-body.home .bottom-nav a:hover{color:var(--brand);}
-body.home .bottom-nav a[aria-current="page"]{opacity:100;}
+
+body.contact .bottom-nav a:hover {
+  color: var(--brand);
+}
+
+body.contact .bottom-nav a[aria-current="page"] {
+  opacity: 100;
+}
 
 /* Keep content from hiding behind the bar */
 body.contact main.container {
